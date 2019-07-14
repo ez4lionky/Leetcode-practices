@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65828473-418f-475a-9a25-5332fb0acff0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/215 Kth largest element in an array.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/946 Validate stack sequences.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day 2/224 Basic Calculator.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/155 Min stack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/215 Kth largest element in an array.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/225 Implement Stack using Queues.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/232 Implement Queue using Stacks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/946 Validate stack sequences.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/155 Min stack.py" afterPath="$PROJECT_DIR$/155 Min stack.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +20,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode$155_Min_stack.coverage" NAME="155 Min stack Coverage Results" MODIFIED="1563010665059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$225_Implement_Stack_using_Queues.coverage" NAME="225 Implement Stack using Queues Coverage Results" MODIFIED="1563009708963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$215_Kth_largest_element_in_an_array.coverage" NAME="215 Kth largest element in an array Coverage Results" MODIFIED="1563083810539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$946_Validate_stack_sequences.coverage" NAME="946 Validate stack sequences Coverage Results" MODIFIED="1563015608998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$224_Basic_Calculator.coverage" NAME="224 Basic Calculator Coverage Results" MODIFIED="1563099023563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,31 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="155 Min stack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/155 Min stack.py">
+      <file leaf-file-name="224 Basic Calculator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 2/224 Basic Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="946 Validate stack sequences.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/946 Validate stack sequences.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="215 Kth largest element in an array.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/215 Kth largest element in an array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,6 +58,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -84,6 +74,7 @@
         <option value="$PROJECT_DIR$/155 Min stack.py" />
         <option value="$PROJECT_DIR$/946 Validate stack sequences.py" />
         <option value="$PROJECT_DIR$/215 Kth largest element in an array.py" />
+        <option value="$PROJECT_DIR$/Day 2/224 Basic Calculator.py" />
       </list>
     </option>
   </component>
@@ -94,8 +85,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="2560" />
-    <option name="height" value="1386" />
+    <option name="x" value="93" />
+    <option name="y" value="84" />
+    <option name="width" value="2289" />
+    <option name="height" value="1253" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,8 +120,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.946 Validate stack sequences">
+  <component name="RunManager" selected="Python.224 Basic Calculator">
     <configuration default="false" name="225 Implement Stack using Queues" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,6 +193,44 @@
       <module name="Leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/946 Validate stack sequences.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="215 Kth largest element in an array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/215 Kth largest element in an array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="224 Basic Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 2/224 Basic Calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,16 +384,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.225 Implement Stack using Queues" />
       <item index="1" class="java.lang.String" itemvalue="Python.155 Min stack" />
       <item index="2" class="java.lang.String" itemvalue="Python.946 Validate stack sequences" />
+      <item index="3" class="java.lang.String" itemvalue="Python.215 Kth largest element in an array" />
+      <item index="4" class="java.lang.String" itemvalue="Python.224 Basic Calculator" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.946 Validate stack sequences" />
-        <item index="1" class="java.lang.String" itemvalue="Python.155 Min stack" />
-        <item index="2" class="java.lang.String" itemvalue="Python.225 Implement Stack using Queues" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.224 Basic Calculator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.215 Kth largest element in an array" />
+        <item index="2" class="java.lang.String" itemvalue="Python.946 Validate stack sequences" />
+        <item index="3" class="java.lang.String" itemvalue="Python.155 Min stack" />
+        <item index="4" class="java.lang.String" itemvalue="Python.225 Implement Stack using Queues" />
       </list>
     </recent_temporary>
   </component>
@@ -389,20 +424,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1386" extended-state="6" />
-    <editor active="true" />
+    <frame x="93" y="84" width="2289" height="1253" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13630407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22962314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2299843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -424,58 +458,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/225 Implement Stack using Queues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/232 Implement Queue using Stacks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="99" lean-forward="false" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/232 Implement Queue using Stacks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="99" lean-forward="true" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/225 Implement Stack using Queues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="51" column="30" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="51" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/155 Min stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/946 Validate stack sequences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/215 Kth largest element in an array.py">
+    <entry file="file://$PROJECT_DIR$/Day 2/224 Basic Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 2/224 Basic Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/155 Min stack.py" />
+    <entry file="file://$PROJECT_DIR$/946 Validate stack sequences.py" />
+    <entry file="file://$PROJECT_DIR$/215 Kth largest element in an array.py" />
+    <entry file="file://$PROJECT_DIR$/225 Implement Stack using Queues.py" />
+    <entry file="file://$PROJECT_DIR$/232 Implement Queue using Stacks.py" />
+    <entry file="file://$PROJECT_DIR$/232 Implement Queue using Stacks.py" />
+    <entry file="file://$PROJECT_DIR$/225 Implement Stack using Queues.py" />
+    <entry file="file://$PROJECT_DIR$/155 Min stack.py" />
+    <entry file="file://$PROJECT_DIR$/946 Validate stack sequences.py" />
+    <entry file="file://$PROJECT_DIR$/215 Kth largest element in an array.py" />
+    <entry file="file://$PROJECT_DIR$/155 Min stack.py" />
+    <entry file="file://$PROJECT_DIR$/946 Validate stack sequences.py" />
+    <entry file="file://$PROJECT_DIR$/215 Kth largest element in an array.py" />
+    <entry file="file://$PROJECT_DIR$/225 Implement Stack using Queues.py" />
+    <entry file="file://$PROJECT_DIR$/232 Implement Queue using Stacks.py" />
+    <entry file="file://$PROJECT_DIR$/232 Implement Queue using Stacks.py" />
+    <entry file="file://$PROJECT_DIR$/225 Implement Stack using Queues.py" />
+    <entry file="file://$PROJECT_DIR$/215 Kth largest element in an array.py" />
+    <entry file="file://$PROJECT_DIR$/946 Validate stack sequences.py" />
+    <entry file="file://$PROJECT_DIR$/155 Min stack.py" />
+    <entry file="file://$PROJECT_DIR$/Day 2/224 Basic Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
