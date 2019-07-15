@@ -1,11 +1,12 @@
 # The key idea is
 
+
 class Stack:
     def __init__(self):
         self.items = []
 
     def isEmpty(self):
-        return len(self.items) ==0
+        return len(self.items) == 0
 
     def peek(self):
         if self.items:
@@ -21,17 +22,18 @@ class Stack:
     def pop(self):
         return self.items.pop()
 
+
 class Solution:
     def compute(self, n_s: Stack, o_s: Stack):
-        if len(n_s.items)<2:
+        if len(n_s.items) < 2:
             return n_s, o_s
 
         num1 = n_s.pop()
         num2 = n_s.pop()
 
-        if o_s.peek()=='+':
+        if o_s.peek() == '+':
             n_s.push(num1 + num2)
-        elif o_s.peek()=='-':
+        elif o_s.peek() == '-':
             n_s.push(num2 - num1)
 
         if o_s:
@@ -46,14 +48,14 @@ class Solution:
         number = 0
 
         i = 0
-        while i<len(s):
+        while i < len(s):
             if s[i] == ' ':
                 i += 1
                 continue
 
             # Start state
-            if state==0:
-                if '0'< s[i] < '9':
+            if state == 0:
+                if '0' < s[i] < '9':
                     state = 1
                 else:
                     state = 2
@@ -61,7 +63,7 @@ class Solution:
 
             # Number state
             elif state==1:
-                if '0'<= s[i] <= '9':
+                if '0' <= s[i] <= '9':
                     number = number * 10 + ord(s[i]) - ord('0')
                 else:
                     number_stack.push(number)
@@ -73,29 +75,30 @@ class Solution:
 
             # Operator state
             else:
-                if s[i]=='+' or s[i]=='-':
+                if s[i] == '+' or s[i] == '-':
                     operator_stack.push(s[i])
                     compute_flag = True
-                elif s[i]=='(':
+                elif s[i] == '(':
                     compute_flag = False
                     state = 1
-                elif '0'<= s[i] <= '9':
+                elif '0' <= s[i] <= '9':
                     state = 1
                     i -= 1
-                elif s[i]==')':
+                elif s[i] == ')':
                     number_stack, operator_stack = self.compute(number_stack, operator_stack)
 
             i += 1
 
         # '123 + 456'
-        if number!=0:
+        if number != 0:
             number_stack.push(number)
             number_stack, operator_stack = self.compute(number_stack, operator_stack)
 
         # the situation of '0', and '123 + 0' will peek the number stack
-        if number==0 and number_stack.isEmpty():
+        if number == 0 and number_stack.isEmpty():
             return 0
         return number_stack.peek()
+
 
 sol = Solution()
 
@@ -111,4 +114,3 @@ sol = Solution()
 # s = "(1+(4+5+2)-3)+(6+8)"
 # print(sol.calculate(s))
 # Summary:
-#
