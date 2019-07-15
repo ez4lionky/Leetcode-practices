@@ -1,6 +1,6 @@
 # It is similar to the 844
 class Solution:
-    def calPoints(self, ops: List[str]) -> int:
+    def calPoints(self, ops: [str]) -> int:
         s = []
         for i in ops:
             if i == 'C':
