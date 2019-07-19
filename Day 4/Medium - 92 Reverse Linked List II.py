@@ -1,3 +1,6 @@
+# The key idea is using temporary pointers to connect the nodes.
+
+
 class ListNode:
     def __init__(self, x):
         self.val = x

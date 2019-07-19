@@ -1,3 +1,6 @@
+# The key idea is to align the length of two Linked node list.
+# Then traverse the list to find the intersection.
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
