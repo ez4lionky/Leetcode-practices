@@ -2,5 +2,5 @@
 
 ### Current progress:
 
-Day: 5 Easy: 9 Medium: 7 Hard: 3
+Day: 5 Easy: 10 Medium: 7 Hard: 3
 
