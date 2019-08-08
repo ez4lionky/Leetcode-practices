@@ -1,5 +1,6 @@
 # Recursive method and loop method.
 # Notation: the append() of list is appending the reference, so we need the copy() before append.
+# The problem also can be solved by using Bit operation.
 
 
 class Solution:
@@ -29,6 +30,17 @@ class Solution:
         self.generate(i + 1, nums, item)
         item.pop(-1)
         self.generate(i + 1, nums, item)
+
+    # def subsets(self, nums: [int]) -> [[int]]:
+    #     items = []
+    #     max_value = 1 << len(nums)
+    #     for i in range(max_value):
+    #         item = []
+    #         for j in range(len(nums)):
+    #             if i & 1 << j:
+    #                 item.append(nums[j])
+    #         items.append(item)
+    #     return items
 
 
 nums = [1, 2, 3]
