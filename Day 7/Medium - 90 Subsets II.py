@@ -2,7 +2,6 @@ class Solution:
     def subsetsWithDup(self, nums: [int]) -> [[int]]:
         items = set()
         nums = sorted(nums)
-        print(nums)
         max_value = 1 << len(nums)
         for i in range(max_value):
             item = []
