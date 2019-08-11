@@ -32,7 +32,7 @@ class Solution:
         j = 0
         result = []
         while i < len(pairs1) and j < len(pairs2):
-            if pairs1[i][0] < pairs2[j][0]:
+            if pairs1[i][0] <= pairs2[j][0]:
                 result.append(pairs1[i])
                 counts[pairs1[i][1]] += j
                 i += 1
@@ -48,5 +48,7 @@ class Solution:
 
 
 sol = Solution()
-nums = [5, 2, 6, 1]
+# nums = [5, 2, 6, 1]
+# print(sol.countSmaller(nums))
+nums = [-1, -1]
 print(sol.countSmaller(nums))
