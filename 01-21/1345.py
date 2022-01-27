@@ -1,5 +1,4 @@
-import heapq
-from collections import defaultdict
+from collections import defaultdict, deque
 from types import TracebackType
 
 
@@ -17,7 +16,7 @@ class Solution:
         # 最短路径算法？
 
         # vanilla version
-        inf = float('inf')
+        # inf = float('inf')
         length = len(arr)
         ids = list(range(length))
 
@@ -78,10 +77,48 @@ class Solution:
         #         if d + w < dist[v]:
         #             dist[v] = d + w
         #             heapq.heappush(hq, (d + w, v))
-        #
+
         # return dist[-1]
         # still time limited exceeded
-        # change to BFS
+        # change to BFS, however, normal BFS still time limited exceeded
+        # G = defaultdict(list)
+        # for i in ids:
+        #     if i > 0:
+        #         G[i].append([i, i-1])
+        #     if i < length - 1:
+        #         G[i].append([i, i+1])
+        #     for j, n in enumerate(arr):
+        #         if n == arr[i] and i != j:
+        #             G[i].append([i, j])
+        values_ids = defaultdict(list)
+        for i, n in enumerate(arr):
+            values_ids[n].append(i)
+
+        visited = [False for _ in range(length)]
+        queue = deque([0])
+        visited[0] = True
+
+        k = 0
+        while queue:
+            size = len(queue)
+            for _ in range(size):
+                u = queue.popleft()
+                if u == ids[-1]:
+                    return k
+                for v in values_ids[arr[u]]:
+                    if visited[v] == False:
+                        queue.append(v)
+                        visited[v] = True
+                # avoid repeatedly visiting same value nodes
+                # if delete this line of code, will TLE
+                del values_ids[arr[u]]
+                if u + 1 < len(arr) and not visited[u + 1]:
+                    queue.append(u + 1)
+                    visited[u + 1] = True
+                if u - 1 >= 0 and not visited[u - 1]:
+                    queue.append(u - 1)
+                    visited[u - 1] = True
+            k += 1
 
 
 if __name__ == '__main__':
