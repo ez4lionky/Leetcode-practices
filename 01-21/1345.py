@@ -109,9 +109,8 @@ class Solution:
                     if visited[v] == False:
                         queue.append(v)
                         visited[v] = True
-                # avoid repeatedly visiting same value nodes
-                # if delete this line of code, will TLE
-                del values_ids[arr[u]]
+                # avoid repeatedly visiting same value nodes, when pop the queue
+                del values_ids[arr[u]]  # if delete this line of code, will TLE
                 if u + 1 < len(arr) and not visited[u + 1]:
                     queue.append(u + 1)
                     visited[u + 1] = True
