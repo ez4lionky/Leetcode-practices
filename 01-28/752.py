@@ -1,3 +1,4 @@
+# vanilla version: Breadth First Search
 from collections import deque, defaultdict
 
 
@@ -29,6 +30,9 @@ class Solution:
                         visited[next_v] = True
             k += 1
         return -1
+
+
+# optimized version: Bidirectional BFS
 
 
 if __name__ == "__main__":
