@@ -90,11 +90,12 @@ class Solution:
             return -1
         if target == "0000":
             return 0
-        k = 0
+        k = 1
         start_queue, end_queue = deque(), deque()
         start_queue.append("0000"), end_queue.append(target)
         start_visited, end_visited = set(), set()
         start_visited.add("0000"), end_visited.add(target)
+        # directed graph use or, undirected graph use and
         while start_queue and end_queue:
             if len(start_queue) > len(end_queue):
                 cur_queue, cur_visited, next_queue, next_visited = end_queue, end_visited, start_queue, start_visited
@@ -102,7 +103,6 @@ class Solution:
                 cur_queue, cur_visited, next_queue, next_visited = start_queue, start_visited, end_queue, end_visited
 
             size = len(cur_queue)
-            k += 1
             for _ in range(size):
                 vid = cur_queue.popleft()
                 neighbours = get_neighbours(vid)
@@ -112,9 +112,8 @@ class Solution:
                             return k
                         cur_queue.append(n)
                         cur_visited.add(n)
+            k += 1
         return -1
-    
-
 
 
 if __name__ == "__main__":
