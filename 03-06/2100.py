@@ -10,6 +10,8 @@ class Solution:
                 left[i] = left[i - 1] + 1
             if security[n - i - 1] <= security[n - i]:
                 right[n - i - 1] = right[n - i] + 1
+        print(left)
+        print(right)
         return [i for i in range(time, n - time) if left[i] >= time and right[i] >= time]
 
 
