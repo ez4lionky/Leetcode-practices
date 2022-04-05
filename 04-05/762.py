@@ -5,7 +5,7 @@
 #         res = 0
 #         primes = set()
 #         for n in range(left, right+1):
-#             num_set = sum([int(b) for b in bin(n)[2:]])
+#             num_set = bin(n).count('1')
 #             # if isprime(num_set):
 #             #     res += 1
 #             if num_set in primes:
