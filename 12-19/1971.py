@@ -12,4 +12,11 @@ class Solution:
             fa[find(u)] = find(v)
         return find(source) == find(destination)
         
+if __name__ == "__main__":
+    sol = Solution()
+    n = 3
+    edges = [[0,1],[1,2],[2,0]]
+    source = 0
+    destination = 2
+    print(sol.validPath(n, edges, source, destination))
 
